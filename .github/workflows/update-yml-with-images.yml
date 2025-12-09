@@ -3,6 +3,7 @@ name: Update YAML File with Images
 on:
   issues:
     types: [edited]
+  workflow_call:
 
 permissions:
   contents: write

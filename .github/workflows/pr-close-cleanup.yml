@@ -3,6 +3,7 @@ name: Cleanup PR Branch and Issues
 on:
   pull_request:
     types: [closed]
+  workflow_call:
 
 permissions:
   contents: write

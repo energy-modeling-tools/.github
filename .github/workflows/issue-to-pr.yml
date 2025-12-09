@@ -3,6 +3,7 @@ name: Convert Issue to PR
 on:
   issues:
     types: [edited]
+  workflow_call:
 
 permissions:
   contents: write

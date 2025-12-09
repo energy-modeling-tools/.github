@@ -3,6 +3,7 @@ name: Prefill YAML Issue Content from Repo
 on:
   issues:
     types: [opened]
+  workflow_call:
 
 permissions:
   contents: read

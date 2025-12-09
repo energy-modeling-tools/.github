@@ -3,6 +3,7 @@ name: Save issue attachments to repository
 on:
   issues:
     types: [opened, edited, labeled]
+  workflow_call:
 
 permissions:
   contents: write
